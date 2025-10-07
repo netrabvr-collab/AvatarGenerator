@@ -1,0 +1,51 @@
+html {
+    background-color: blanchedalmond;
+    justify-content: center;
+    font-family: Lucida Sans, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.addons-container,
+.tops-container,
+.bottoms-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addons-image,
+.tops-image,
+.bottoms-image {
+    width: 90%;
+    max-width: 250px;
+    aspect-ratio: 3 / 4;
+    object-fit: contain;
+    height: auto;
+}
+
+button {
+    font-size: 20px;
+    color: rgb(76, 39, 2);
+    background-color: rgb(227, 198, 154);
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(230, 183, 112);
+    transform: translateY(-2px);
+    box-shadow: 2px 2px 2px 1px rgb(62, 64, 32);
+}
